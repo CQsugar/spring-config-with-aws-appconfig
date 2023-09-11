@@ -1,0 +1,4 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.example.springconfigwithawsappconfig.aws.appconfig.AwsAppConfigBootStrapConfiguration
+org.springframework.boot.env.PropertySourceLoader=\
+com.example.springconfigwithawsappconfig.aws.parser.JsonPropertySourceLoader

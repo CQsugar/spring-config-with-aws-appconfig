@@ -1,0 +1,12 @@
+spring:
+  aws:
+    config:
+      - application: ${APPLICATION}
+        environment: ${ENVIRONMENT}
+        fileNames: ${PROFILES}
+
+
+
+aws:
+  appconfig:
+    enabled: true
